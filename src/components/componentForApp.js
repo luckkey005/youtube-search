@@ -32,15 +32,15 @@ class ComponentForApp extends React.Component {
     // }
 
     // get things from api
-    // render() {
-    //     return (
-    //         <GetFromApi />
-    //     );
-    // }
-
     render() {
-        return <GetDataWithCallback />;
+        return (
+            <GetFromApi />
+        );
     }
+
+    // render() {
+    //     return <GetDataWithCallback />;
+    // }
 
 }
 

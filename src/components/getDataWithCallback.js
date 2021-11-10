@@ -19,13 +19,13 @@ class GetDataWithCallback extends React.Component {
     }
     getDat() {
         return this.state.dat.map(item => {
-            // return <div key={item.id}><a href={item.link} style={{ display: 'block' }}>{item.title.rendered}</a> <br /></div>
+            return <div key={item.id}><a href={item.link} style={{ display: 'block' }}>{item.title.rendered}</a> <br /></div>
             console.log(item)
         });
     }
 
     render() {
-        return <div>hai {this.getDat}</div>
+        return <div >hai {this.getDat}</div>
     }
 }
 export default GetDataWithCallback;
